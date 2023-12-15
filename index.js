@@ -42,6 +42,21 @@ const questions = [{
     name: "installation",
     default: "Clone the repository and run 'npm i'"
 },
+{
+    type: "input",
+    message: "How should your project be used?",
+    name: "usage",
+},
+{
+    type: "input",
+    message: "Is there anyone you'd like to credit with a contribution to your project?",
+    name: "contributions",
+},
+{
+    type: "input",
+    message: "Please provide instructions on how to test this application",
+    name: "tests",
+},
 ];
 
 // TODO: Create a function to write README file
