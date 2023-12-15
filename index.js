@@ -92,7 +92,7 @@ function writeToFile(fileName, data) { fs.writeFile(fileName, generateMarkdown(d
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-            writeToFile("README.md", answers);
+            writeToFile("CLIgeneratedREADME.md", answers);
         })
 }
 
