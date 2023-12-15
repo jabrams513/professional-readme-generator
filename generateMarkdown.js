@@ -70,7 +70,8 @@ ${data.contributions}
 ${data.tests}
 
 ### Questions
-${data.questions}
+If you have any question, email me here at : ${data.email}
+My Github page is [${data.username}](https://github.com/${data.username})
 
 ${renderLicenseSection(data.license)}
 `;
