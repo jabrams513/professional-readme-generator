@@ -9,6 +9,12 @@ const generateMarkdown = require("./generateMarkdown");
 function writeToFile(fileName, data) { fs.writeFile(fileName, generateMarkdown(data) + "\n", (error => error ? console.log(error) : console.log("Success"))); }
 
 // TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            writeToFile("README.md", answers);
+        })
+}
 
 // Function call to initialize app
 init();
