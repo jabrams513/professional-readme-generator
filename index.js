@@ -57,6 +57,32 @@ const questions = [{
     message: "Please provide instructions on how to test this application",
     name: "tests",
 },
+{
+    type: "input",
+    message: "Please enter your GitHub username: ",
+    name: "username",
+    validate: githubInput => {
+        if (githubInput) {
+            return true;
+        } else {
+            console.log("Please enter your GitHub username!");
+            return false;
+        }
+    }
+},
+{
+    type: "input",
+    message: "Please enter your email: ",
+    name: "email",
+    validate: emailInput => {
+        if (emailInput) {
+            return true;
+        } else {
+            console.log("Please enter your email!");
+            return false;
+        }
+    }
+}
 ];
 
 // TODO: Create a function to write README file
