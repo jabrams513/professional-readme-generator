@@ -46,12 +46,12 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Screenshot
-Please refer to the following screenshot as a reference for the web application's appearance and functionality:
-![CLI README generator demo](./assets/Professional%20README%20Generator%20Demo.webm)
-![README generated from the CLI](./assets/Professional%20README%20Generator%20Demo2.webm)
+Please refer to the following video links as a reference for the application's appearance and functionality:
 
-![CLI README generator demo](https://www.youtube.com/watch?v=7TFQRovrBco)
-![README generated from the CLI](https://www.youtube.com/watch?v=q_lcv-FF7SE)
+[CLI README generator demo](https://www.youtube.com/watch?v=7TFQRovrBco) <br/>
+[README generated from the CLI](https://www.youtube.com/watch?v=q_lcv-FF7SE) <br/>
+
+Demo videos are also available in the assets folder
 
 ## Code Sources and Collaborators
 I had the opportunity to collaborate with my peer Kenny.
